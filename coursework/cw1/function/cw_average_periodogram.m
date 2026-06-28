@@ -1,4 +1,4 @@
-% Haozheng Dong 01884083 Imperial College London 2/5/2024
+% Claudio Dong Imperial College London 2/5/2024
 %
 % This function is used to produce average periogogram method as (Bartlett method)
 %>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

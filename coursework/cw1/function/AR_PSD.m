@@ -1,4 +1,4 @@
-% Haozheng Dong 01884083 Imperial COllege London 2/5/2024
+% Claudio Dong Imperial COllege London 2/5/2024
 % Autoregression Power Spectrum Estimation
 %>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 % - Input:
