@@ -2,7 +2,7 @@
 
 This repository contains source code for coursework and experiments in adaptive signal processing and machine intelligence. The code covers classical spectral estimation, adaptive filtering, complex-valued adaptive signal processing, nonlinear adaptive prediction, and neural-network based classification.
 
-Source code, supporting datasets, and generated result images are included. Coursework reports, submitted PDFs, Word documents, and personal submission artifacts have been excluded from this public repository.
+Source code, supporting datasets, and generated result images are included. 
 
 ## Repository Structure
 
@@ -108,10 +108,8 @@ jupyter lab coursework/cw5
 
 ## Notes
 
-- Public reports and personal submission files are intentionally excluded.
 - Generated result images and relevant datasets are included for reproducibility.
 - The CNN dataset in `coursework/cw4/Task2/Task4_CNN_data.mat` is large and may take time to clone.
-- Author labels in code headers have been normalized to `Claudio Dong`.
 
 ## Author
 
