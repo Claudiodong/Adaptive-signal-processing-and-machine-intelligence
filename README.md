@@ -30,6 +30,50 @@ Source code, supporting datasets, and generated result images are included. Cour
 | `coursework/cw5` | Notebook-based machine-intelligence tasks. | Jupyter `.ipynb` |
 | `scripts` | Standalone Python CNN script. | Python `.py` |
 
+## Result Gallery
+
+Representative generated figures are shown below. The full result folders are available under each coursework directory.
+
+### CW1: Spectral Estimation and AR Modelling
+
+Impulse and sinusoidal examples used in the introductory spectral-analysis tasks:
+
+![CW1 impulse example](coursework/cw1/result/Part%201.1%20impulse.jpg)
+
+![CW1 sine-wave example](coursework/cw1/result/Part%201.1%20sin%20wave.jpg)
+
+Additional CW1 images are in [`coursework/cw1/result`](coursework/cw1/result).
+
+### CW2: Adaptive Filtering
+
+LMS and leaky-LMS experiments comparing convergence and filtering behaviour:
+
+![CW2 leaky LMS result](coursework/cw2/LMS%20result/Leaky_LMS.png)
+
+![CW2 GASS result](coursework/cw2/LMS%20result/Task_2_a_Gass.png)
+
+Additional CW2 images are in [`coursework/cw2/LMS result`](coursework/cw2/LMS%20result).
+
+### CW3: Complex-Valued Adaptive Signal Processing
+
+CLMS/ACLMS and complex-valued modelling results:
+
+![CW3 circularity result](coursework/cw3/Task3_result/Task_3_1_a_Circular.png)
+
+![CW3 DFT-CLMS result](coursework/cw3/Task3_result/Task_3_3_d.png)
+
+Additional CW3 images are in [`coursework/cw3/Task3_result`](coursework/cw3/Task3_result).
+
+### CW4: Nonlinear Prediction and CNN Experiments
+
+Nonlinear LMS prediction and CNN experiment outputs:
+
+![CW4 standard LMS result](coursework/cw4/result/Task4_1_standard_LMS.png)
+
+![CW4 CNN result](coursework/cw4/result/Task_CNN_1_1.png)
+
+Additional CW4 images are in [`coursework/cw4/result`](coursework/cw4/result).
+
 ## How to Run
 
 ### MATLAB Scripts
