@@ -2,7 +2,7 @@
 
 This repository contains source code for coursework and experiments in adaptive signal processing and machine intelligence. The code covers classical spectral estimation, adaptive filtering, complex-valued adaptive signal processing, nonlinear adaptive prediction, and neural-network based classification.
 
-Only source code is included. Coursework reports, submitted PDFs, Word documents, datasets, generated plots, and other non-code artifacts have been excluded from this public repository.
+Source code, supporting datasets, and generated result images are included. Coursework reports, submitted PDFs, Word documents, and personal submission artifacts have been excluded from this public repository.
 
 ## Repository Structure
 
@@ -23,10 +23,10 @@ Only source code is included. Coursework reports, submitted PDFs, Word documents
 
 | Folder | Topics | Main file types |
 | --- | --- | --- |
-| `coursework/cw1` | Periodograms, correlograms, AR modelling, Yule-Walker estimation, MUSIC, ECG/RRI processing, and supporting MATLAB functions. | MATLAB `.m`, MATLAB `.p` |
-| `coursework/cw2` | LMS, leaky LMS, GASS/GNGD, ALE, ANC, and EEG-related adaptive filtering scripts. | MATLAB `.m` |
-| `coursework/cw3` | CLMS, ACLMS, widely linear modelling, DFT-CLMS, and complex-valued signal processing experiments. | MATLAB `.m` |
-| `coursework/cw4` | Nonlinear activation LMS, biased activation LMS, time-series prediction, and CNN data-generation/training scripts. | MATLAB `.m` |
+| `coursework/cw1` | Periodograms, correlograms, AR modelling, Yule-Walker estimation, MUSIC, ECG/RRI processing, data files, and result images. | MATLAB `.m`, MATLAB `.p`, `.mat`, `.csv`, `.jpg` |
+| `coursework/cw2` | LMS, leaky LMS, GASS/GNGD, ALE, ANC, EEG-related adaptive filtering scripts, supporting EEG data, and result plots. | MATLAB `.m`, `.mat`, `.png` |
+| `coursework/cw3` | CLMS, ACLMS, widely linear modelling, DFT-CLMS, complex-valued signal processing experiments, wind data, EEG data, and result plots. | MATLAB `.m`, `.mat`, `.png` |
+| `coursework/cw4` | Nonlinear activation LMS, biased activation LMS, time-series prediction, CNN data-generation/training scripts, datasets, and result plots. | MATLAB `.m`, `.mat`, `.png` |
 | `coursework/cw5` | Notebook-based machine-intelligence tasks. | Jupyter `.ipynb` |
 | `scripts` | Standalone Python CNN script. | Python `.py` |
 
@@ -44,7 +44,7 @@ addpath("function_task2")
 Task2_2_a
 ```
 
-Some scripts originally used external datasets such as EEG recordings, wind data, time-series data, or CNN training data. Those datasets are intentionally not included in this public code-only repository.
+The datasets used by the MATLAB scripts are included beside the relevant coursework files, including EEG assignment data, RRI data, wind data, time-series data, and CNN training data.
 
 ### Python Script
 
@@ -65,8 +65,8 @@ jupyter lab coursework/cw5
 ## Notes
 
 - Public reports and personal submission files are intentionally excluded.
-- Generated figures and intermediate data files are intentionally excluded.
-- Some scripts may require re-creating or supplying the original datasets locally.
+- Generated result images and relevant datasets are included for reproducibility.
+- The CNN dataset in `coursework/cw4/Task2/Task4_CNN_data.mat` is large and may take time to clone.
 - Author labels in code headers have been normalized to `Claudio Dong`.
 
 ## Author
